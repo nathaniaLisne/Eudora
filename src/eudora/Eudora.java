@@ -5,6 +5,8 @@
  */
 package eudora;
 
+import menu.Menu;
+
 /**
  *
  * @author guilhermeferreira
@@ -15,7 +17,11 @@ public class Eudora {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        /*
+        Menu menu = new Menu();
+        menu.setLocationRelativeTo(null);
+        menu.setVisible(true);
+                */
     }
     
 }
