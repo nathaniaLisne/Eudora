@@ -37,9 +37,8 @@ public class TelaInicial extends javax.swing.JFrame {
         jPasswordField1 = new javax.swing.JPasswordField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(698, 359));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/menu/logo-eudora5.jpg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/logo-eudora5.jpg"))); // NOI18N
 
         jLabel2.setFont(new java.awt.Font("Showcard Gothic", 0, 18)); // NOI18N
         jLabel2.setText("SVC - Sistema de Vendas e ControlE");
@@ -57,8 +56,6 @@ public class TelaInicial extends javax.swing.JFrame {
                 btnLogonActionPerformed(evt);
             }
         });
-
-        jPasswordField1.setText("jPasswordField1");
 
         javax.swing.GroupLayout jPanelLoginLayout = new javax.swing.GroupLayout(jPanelLogin);
         jPanelLogin.setLayout(jPanelLoginLayout);
